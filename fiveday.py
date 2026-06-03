@@ -1,4 +1,4 @@
-data_stream = ["120","45","ERROR","'105","abc"]
+data_stream = ["120","45","ERROR","105","abc"]
 print("-- ⚖️ 步骤1：大数据高并发清洗线启动（神盾局防御模式） --")
 with open("hack_alert.txt","a",encoding = "utf-8")as f_alert:
     for data in data_stream:
